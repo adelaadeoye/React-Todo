@@ -1,0 +1,27 @@
+.item {
+  background-color: rgb(236, 128, 236);
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 4px ;
+  padding: 8px;
+
+}
+
+.item.completed {
+  background-color: #d17d7c;
+  text-decoration: line-through;
+}
+
+.container {
+  margin: 0px auto;
+  border: 1px solid rgb(236, 128, 236);
+  width: 50%;
+  text-align: center;
+}
+.TodoList{
+    display: flex;
+    flex-wrap: wrap;
+
+}
